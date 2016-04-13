@@ -1,0 +1,46 @@
+#diamond {
+  height: 300px;
+  width: 300px;
+  background-color: #7FDBFF;
+  transform: rotate(45deg);
+} 
+
+
+#circle {
+    width: 200px;
+    height: 200px;
+    background: #7fee1d;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+#floatCircle{
+    float: right;
+    left:-104px;
+}
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+  background: dodgerblue;
+}
+
+.container {
+    margin: auto;
+    /* border: 3px solid #73AD21; */
+    padding: 210px;
+    width: 200px;
+    background-color: #eee;
+}
+
+#text{
+    margin: inherit;
+    position: absolute;
+}
